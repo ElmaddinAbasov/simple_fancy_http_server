@@ -1,0 +1,10 @@
+CC=gcc
+CCFLAGS=-Wall -Wextra
+interface.o:interface.c
+	$(CC) $(CCFLAGS) -g -c $< -o $@
+server:server.c interface.o
+	$(CC) $(CCFLAGS) -g $^ -o $@
+client:client.c interface.o
+	$(CC) $(CCFLAGS) -g $^ -o $@
+client1:client.c interface.o
+	$(CC) $(CCFLAGS) -g $^ -o $@
