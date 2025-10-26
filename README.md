@@ -20,6 +20,16 @@ So in a nutshell
   * send response back to a client
 
 
+# An example of a server reading a GET request from a broweser
+
+<img width="1385" height="433" alt="Screenshot from 2025-10-26 13-22-18" src="https://github.com/user-attachments/assets/0f339552-fd63-4fc7-9afa-69cdb5cbaa47" />
+
+
+# Server sending a http response to a client
+
+<img width="1852" height="690" alt="Screenshot from 2025-10-26 13-22-33" src="https://github.com/user-attachments/assets/7cba007f-6a66-40df-b59f-95ad4e3d0676" />
+
+
 So couple words, before we finish. Building a http server actually is really easy process, you create a TCP/IP server using streaming socket, and you just handle a http requests.
 
 
